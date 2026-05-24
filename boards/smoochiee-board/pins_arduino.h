@@ -8,7 +8,7 @@ static const uint8_t TX = 43;
 static const uint8_t RX = 44;
 
 static const uint8_t SDA = 47;
-static const uint8_t SCL = 42;
+static const uint8_t SCL = 48;
 
 // Modified elsewhere
 static const uint8_t SS = 3;
@@ -22,19 +22,20 @@ static const uint8_t SCK = 18;
 #define BAD_TX SERIAL_TX
 #define USB_as_HID 1
 
-#define ANALOG_BAT_PIN 2
+#define ANALOG_BAT_PIN 6
 #define ANALOG_BAT_MULTIPLIER 2.0f
 
 #define BTN_ALIAS "\"OK\""
 #define HAS_5_BUTTONS
 #define SEL_BTN 0
-#define UP_BTN 41
-#define DW_BTN 40
-#define R_BTN 39
-#define L_BTN 38
-#define ESC_BTN 4
+#define UP_BTN 39
+#define DW_BTN 38
+#define R_BTN 41
+#define L_BTN 40
+#define ESC_BTN 42
 #define BTN_ACT LOW
 
+#define RXLED 4
 #define TXLED 5
 #define LED_ON HIGH
 #define LED_OFF LOW
@@ -68,7 +69,7 @@ static const uint8_t SCK = 18;
 #define TFT_WIDTH 240
 #define TFT_HEIGHT 320
 #define TFT_BACKLIGHT_ON 1
-#define TFT_BL 6
+#define TFT_BL 1
 #define TFT_RST 16
 #define TFT_DC 15
 #define TFT_MISO 8
@@ -87,7 +88,7 @@ static const uint8_t SCK = 18;
 #define SDCARD_MOSI 17
 
 #define GROVE_SDA 47
-#define GROVE_SCL 42
+#define GROVE_SCL 48
 
 #define SPI_SCK_PIN 13
 #define SPI_MOSI_PIN 12
@@ -97,7 +98,7 @@ static const uint8_t SCK = 18;
 // RGB LED
 
 #define HAS_RGB_LED 1
-#define RGB_LED 48
+#define RGB_LED 45
 #define LED_TYPE WS2812B
 #define LED_ORDER GRB
 #define LED_TYPE_IS_RGBW 0
