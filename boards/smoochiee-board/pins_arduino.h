@@ -42,7 +42,7 @@ static const uint8_t SCK = 18;
 
 #define USE_CC1101_VIA_SPI
 #define CC1101_GDO0_PIN 9
-#define CC1101_GDO2_PIN 10
+#define CC1101_GDO2_PIN -1
 #define CC1101_SS_PIN 46
 #define CC1101_MOSI_PIN SPI_MOSI_PIN
 #define CC1101_SCK_PIN SPI_SCK_PIN
@@ -70,7 +70,7 @@ static const uint8_t SCK = 18;
 #define TFT_HEIGHT 320
 #define TFT_BACKLIGHT_ON 1
 #define TFT_BL 1
-#define TFT_RST 16
+#define TFT_RST -1
 #define TFT_DC 15
 #define TFT_MISO 8
 #define TFT_MOSI 17
