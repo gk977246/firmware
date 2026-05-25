@@ -30,8 +30,8 @@ static const uint8_t SCK = 18;
 #define SEL_BTN 0
 #define UP_BTN 41
 #define DW_BTN 40
-#define R_BTN 39
-#define L_BTN 38
+#define L_BTN 39
+#define R_BTN 38
 #define ESC_BTN 42
 #define BTN_ACT LOW
 
