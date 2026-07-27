@@ -67,8 +67,8 @@ static const uint8_t SCK = 18;
 #define ST7789_DRIVER 1
 //#define ILI9341_DRIVER 1  //gk
 #define TFT_RGB_ORDER 0
-#define TFT_WIDTH 170 //gk 240
-#define TFT_HEIGHT 320
+#define TFT_WIDTH 240 //gk 170
+#define TFT_HEIGHT 240 //320
 #define TFT_BACKLIGHT_ON 1
 #define TFT_BL 6 //gk 1
 #define TFT_RST 16// gk -1
