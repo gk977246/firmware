@@ -22,7 +22,7 @@ static const uint8_t SCK = 18;
 #define BAD_TX SERIAL_TX
 #define USB_as_HID 1
 
-#define ANALOG_BAT_PIN 6
+#define ANALOG_BAT_PIN 1 //gk 6
 #define ANALOG_BAT_MULTIPLIER 2.0f
 
 #define BTN_ALIAS "\"OK\""
@@ -64,13 +64,14 @@ static const uint8_t SCK = 18;
 #define MINBRIGHT (uint8_t)1
 
 #define USER_SETUP_LOADED 1
-#define ILI9341_DRIVER 1
+#define ST7789_DRIVER 1
+//#define ILI9341_DRIVER 1  //gk
 #define TFT_RGB_ORDER 0
-#define TFT_WIDTH 240
+#define TFT_WIDTH 170 //gk 240
 #define TFT_HEIGHT 320
 #define TFT_BACKLIGHT_ON 1
-#define TFT_BL 1
-#define TFT_RST -1
+#define TFT_BL 6 //gk 1
+#define TFT_RST 16// gk -1
 #define TFT_DC 15
 #define TFT_MISO 8
 #define TFT_MOSI 17
